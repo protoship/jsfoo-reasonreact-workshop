@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add your custom css here */
+
+.scrollbar-transparent {
+  scrollbar-color: theme('colors.gray.200') theme('colors.gray.400');
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-2-3 {
+  grid-template-columns: 2fr 3fr;
+}
+
+.h-content {
+  height: calc(100vh - 3rem);
+}

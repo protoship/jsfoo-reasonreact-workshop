@@ -1,0 +1,30 @@
+{
+  "name": "react-hooks-template",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "bsc-flags": [
+    "-bs-super-errors",
+    "-no-alias-deps",
+    "-color",
+    "always",
+    "-w",
+    "-40+6+7+27+32..39+44+45@8@6"
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "refmt": 3
+}

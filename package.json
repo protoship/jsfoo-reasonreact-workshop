@@ -1,0 +1,36 @@
+{
+  "name": "reasonreact-workshop",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "postcss styles.css -o build/tailwind.css; bsb -make-world",
+    "start": "postcss styles.css -o build/tailwind.css; bsb -make-world -w",
+    "clean": "rm build/tailwind.css; bsb -clean-world",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack -w",
+    "webpack:production": "NODE_ENV=production webpack",
+    "server": "webpack-dev-server"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "postcss-cli": "^6.1.3",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "reason-react": ">=0.7.0",
+    "shortid": "^2.2.15",
+    "tailwindcss": "^1.1.2"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "bs-platform": "^5.0.6",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
